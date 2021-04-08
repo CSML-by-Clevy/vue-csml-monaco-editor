@@ -44,6 +44,12 @@ const keywords = [
     insertText: 'goto $0',
     insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet,
   },
+  {
+    label: 'remember',
+    kind: monaco.languages.CompletionItemKind.Keyword,
+    insertText: 'remember $1 = $0',
+    insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet,
+  },
 ];
 
 const structures = [
