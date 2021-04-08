@@ -17,7 +17,7 @@ You need [Vue.js](https://vuejs.org/) **version 2.6+**.
 npm install @clevy/csml-monaco-editor
 ```
 
-### 2 Import and use CSML components
+### 2 Import
 
 Bundle
 ```javascript
@@ -26,13 +26,10 @@ import CsmlMonacoEditor from '@clevy/csml-monaco-editor';
 
 Vue.use(CsmlMonacoEditor);
 ```
-or Individual Components
-```javascript
-import Vue from 'vue'
-import { CsmlMonacoEditor } from '@clevy/csml-monaco-editor'
 
-Vue.use(CsmlMonacoEditor)
-```
+You'll then have access to those components:
+- CsmlMonacoEditor
+- MonacoEditor
 
 ## CSML Monaco Editor
 
