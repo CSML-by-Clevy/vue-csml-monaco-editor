@@ -50,6 +50,12 @@ const keywords = [
     insertText: 'remember $1 = $0',
     insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet,
   },
+  {
+    label: 'forget',
+    kind: monaco.languages.CompletionItemKind.Keyword,
+    insertText: 'forget $0',
+    insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet,
+  },
 ];
 
 const structures = [
@@ -95,7 +101,7 @@ const csmlCompletion = [...macros, ...keywords, ...structures];
 /**
  * Provide completion items for the given position and document.
  * @see {@link https://microsoft.github.io/monaco-editor/api/interfaces/monaco.languages.completionitemprovider.html}
- * 
+ *
  * @param {*} model A model.
  * @param {*} position A position in the editor.
  * @returns ProviderResult<CompletionList>

@@ -9,6 +9,7 @@ const csmlKeywords = [
   'flow',
   'fn',
   'foreach',
+  'forget',
   'goto',
   'hold',
   'in',
