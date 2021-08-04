@@ -1,5 +1,5 @@
 {
-  "name": "@clevy/csml-monaco-editor",
+  "name": "@clevy/vue-csml-monaco",
   "version": "0.1.3",
   "description": "CSML Monaco Editor is a customized version of Monaco Editor with support for the CSML language.",
   "main": "dist/csml-monaco-editor.ssr.js",

@@ -1,6 +1,6 @@
 # CSML Monaco Editor
 
-> CSML Monaco Editor is a customized version of Monaco Editor with support for the CSML language.
+> CSML Monaco Editor is a customized version of Monaco Editor with support (syntax highlighting, code completion) for the CSML programming language.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ You need [Vue.js](https://vuejs.org/) **version 2.6+**.
 ### 1 Install via npm
 
 ```bash
-npm install @clevy/csml-monaco-editor
+npm install @clevy/vue-csml-monaco
 ```
 
 ### 2 Import
@@ -22,7 +22,7 @@ npm install @clevy/csml-monaco-editor
 Bundle
 ```javascript
 import Vue from 'vue';
-import CsmlMonacoEditor from '@clevy/csml-monaco-editor';
+import CsmlMonacoEditor from '@clevy/vue-csml-monaco';
 
 Vue.use(CsmlMonacoEditor);
 ```
@@ -34,7 +34,7 @@ You'll then have access to those components:
 ## CSML Monaco Editor
 
 To avoid a large bundle size, Monaco Editor is externalized from the library.
-So if you want to use the `csml-monaco-editor` component in your project, you have to install and load Monaco Editor in your project directly.
+So if you want to use the `vue-csml-monaco` component in your project, you have to install and load Monaco Editor in your project directly.
 
 ```bash
 npm install monaco-editor
