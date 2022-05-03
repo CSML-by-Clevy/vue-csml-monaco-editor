@@ -3,6 +3,7 @@
 const csmlKeywords = [
   'as',
   'break',
+  'const',
   'debug',
   'do',
   'event',
@@ -12,6 +13,7 @@ const csmlKeywords = [
   'forget',
   'goto',
   'hold',
+  'hold_secure',
   'in',
   'import',
   'remember',

@@ -11,6 +11,7 @@ const macros = [
   'Image',
   'Length',
   'OneOf',
+  'Or',
   'Question',
   'Random',
   'Shuffle',
