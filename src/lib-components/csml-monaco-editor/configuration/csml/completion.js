@@ -1,26 +1,42 @@
 const monaco = require('monaco-editor');
 
 const macros = [
+  'App',
   'Audio',
   'Base64',
+  'Card',
   'Carousel',
+  'Crypto',
+  'Exists',
   'Find',
   'Floor',
   'Hex',
   'HTTP',
   'Image',
+  'JWT',
   'Length',
+  'Object',
   'OneOf',
   'Or',
   'Question',
   'Random',
   'Shuffle',
+  'SMTP',
   'Text',
+  'Time',
   'Typing',
   'Url',
   'UUID',
   'Video',
   'Wait',
+
+  // Studio components
+  'Calendar',
+  'Input',
+  'LaTeX',
+  'Multiselect',
+  'QuickReply',
+
 ].map((macro) => {
   return {
     label: macro,
