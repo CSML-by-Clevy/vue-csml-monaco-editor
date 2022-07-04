@@ -25,7 +25,7 @@ import nightOwl from './configuration/themes/Night Owl.json';
 
 /**
  * A Monaco editor component with CSML support and a default opiniated configuration.
- * 
+ *
  * @vue-prop {String} value - The editor's content.
  * @vue-prop {String} [theme='vs-dark'] - The theme of the editor.
  * @vue-data {Object} monaco - The monaco instance.
@@ -116,7 +116,7 @@ export default /*#__PURE__*/{
       );
 
       // Ctrl + Shift + /: line comment
-      editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyMod.Shift | monaco.KeyCode.US_SLASH, () => 
+      editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyMod.Shift | monaco.KeyCode.US_SLASH, () =>
         editor.getAction('editor.action.commentLine').run(),
       );
     },
